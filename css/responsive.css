@@ -1,0 +1,257 @@
+@media (min-width:350px) and (max-width: 534px){
+
+    .banner--container__logo >div{
+        width: 150px;
+    }
+
+    .banner--container__name > div >h1{
+        font-size: 70px;
+    }
+
+    .container--nav{
+        height: 40px;
+    }
+
+    .container--nav >h3{
+        line-height: 40px;
+        font-size: 30px;
+    }
+
+    .comic{
+        top: 140px;
+    }
+
+    .member--container{
+        margin-top: 160px;
+    }
+
+    .member--list__item > h5 {
+        font-size: 25px;
+    }
+
+    .community--list__item > a {
+        font-size: 100px;
+    }
+
+    .donate--list__info >p{
+        font-size: 35px;
+    }
+}   
+
+@media (min-width:535px) and (max-width: 739px){
+    .c-6{
+        flex: 0 0 33.33333%;
+        max-width: 33.33333%;
+    }
+
+    .banner--container__logo >div{
+        width: 200px;
+    }
+
+    .banner--container__name > div >h1{
+        font-size: 90px;
+    }
+
+    .container--nav{
+        height: 50px;
+    }
+    
+    .container--nav >h3{
+        line-height: 50px;
+        font-size: 40px;
+    }
+
+    .comic{
+        top: 200px;
+    }
+
+    .member--container{
+        margin-top: 220px;
+        border-top: 4px solid #E2E700;
+        border-bottom: 4px solid #E2E700;
+    }
+
+    .comic--container{
+        border-top: 4px solid #E41A57;
+        border-bottom: 4px solid #E41A57;
+    }
+
+    .community--container{
+        border-top: 4px solid #24FF00;
+        border-bottom: 4px solid #24FF00;
+    }
+
+    .donate--container{
+        border-top: 4px solid #CD1CA6;
+        border-bottom: 4px solid #CD1CA6;
+    }
+
+    .member--list__item > h5 {
+        font-size: 30px;
+    }
+
+    .community--list__item > a {
+        font-size: 120px;
+    }
+
+    .community--list__item > span{
+        font-size: 30px;
+        margin: 20px 0px;
+    }
+
+    .donate--list__info >p{
+        font-size: 40px;
+    }
+
+}
+
+@media (min-width:740px) and (max-width: 1023px){
+    
+    
+    .header--container{
+        height: 60px;
+    }
+
+    .header--container__name > h2{
+        line-height: 60px;
+        font-size: 40px;
+    }
+
+    .banner--container__logo >div{
+        width: 250px;
+    }
+
+    .banner--container__name > div >h1{
+        font-size: 140px;
+    }
+
+    .container--nav{
+        height: 50px;
+        width: 80%;
+    }
+    
+    .container--nav >h3{
+        line-height: 50px;
+        font-size: 40px;
+    }
+
+    .comic{
+        top: 250px;
+    }
+
+    .member--container{
+        margin-top: 280px;
+        border-top: 4px solid #E2E700;
+        border-bottom: 4px solid #E2E700;
+    }
+
+    .comic--container{
+        border-top: 4px solid #E41A57;
+        border-bottom: 4px solid #E41A57;
+    }
+
+    .community--container{
+        border-top: 4px solid #24FF00;
+        border-bottom: 4px solid #24FF00;
+    }
+
+    .donate--container{
+        border-top: 4px solid #CD1CA6;
+        border-bottom: 4px solid #CD1CA6;
+    }
+
+    .member--list__item > h5 {
+        font-size: 30px;
+    }
+
+    .community--list__item > a {
+        font-size: 140px;
+    }
+
+    .community--list__item > span{
+        font-size: 35px;
+        margin: 20px 0px;
+    }
+
+    .donate--list__info >p{
+        font-size: 50px;
+    }
+}
+
+@media (min-width:1024px){
+    .header--container{
+        height: 60px;
+    }
+
+    .header--container__name > h2{
+        line-height: 60px;
+        font-size: 40px;
+    }
+
+    .banner--container__logo > div{
+        width: 222px;
+     }
+
+
+    .banner--container__name {
+        padding-top: 0px;
+    }
+    .banner--container__name > div >h1{
+        font-size: 180px;
+        height: 190px;
+        line-height: 190px;
+    }
+
+    .container--nav{
+        height: 50px;
+        width: 80%;
+    }
+    
+    .container--nav >h3{
+        line-height: 50px;
+        font-size: 40px;
+    }
+
+    .comic{
+        top: 250px;
+    }
+
+    .member--container{
+        margin-top: 280px;
+        border-top: 4px solid #E2E700;
+        border-bottom: 4px solid #E2E700;
+    }
+
+    .comic--container{
+        border-top: 4px solid #E41A57;
+        border-bottom: 4px solid #E41A57;
+    }
+
+    .community--container{
+        border-top: 4px solid #24FF00;
+        border-bottom: 4px solid #24FF00;
+    }
+
+    .donate--container{
+        border-top: 4px solid #CD1CA6;
+        border-bottom: 4px solid #CD1CA6;
+    }
+
+    .member--list__item > h5 {
+        font-size: 30px;
+    }
+
+    .community--list__item > a {
+        font-size: 140px;
+    }
+
+    .community--list__item > span{
+        font-size: 35px;
+        margin: 20px 0px;
+    }
+
+    .donate--list__info >p{
+        font-size: 50px;
+    }
+}
+
