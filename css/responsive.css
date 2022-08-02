@@ -125,6 +125,34 @@
         font-size: 140px;
     }
 
+    .comic--list::-webkit-scrollbar{
+        height: 15px;
+        margin: 5px auto;
+        border: 1px solid #E41A57;
+        border-radius: 10px;
+    }
+
+    .comic--list::-webkit-scrollbar-thumb {
+
+        background: #E41A57; 
+        border-radius: 10px;
+        color: #E41A57;
+    }
+
+    .member--list::-webkit-scrollbar{
+        height: 15px;
+        margin: 5px auto;
+        border: 1px solid #E2E700;
+        border-radius: 10px;
+    }
+
+    .member--list::-webkit-scrollbar-thumb {
+
+        background: #E2E700; 
+        border-radius: 10px;
+        color: #E2E700;
+    }
+
     .container--nav{
         height: 50px;
         width: 80%;
@@ -216,10 +244,38 @@
         top: 250px;
     }
 
+    .comic--list::-webkit-scrollbar{
+        height: 20px;
+        margin: 5px auto;
+        border: 1px solid #E41A57;
+        border-radius: 10px;
+    }
+
+    .comic--list::-webkit-scrollbar-thumb {
+
+        background: #E41A57; 
+        border-radius: 10px;
+        color: #E41A57;
+    }
+
     .member--container{
         margin-top: 280px;
         border-top: 4px solid #E2E700;
         border-bottom: 4px solid #E2E700;
+    }
+
+    .member--list::-webkit-scrollbar{
+        height: 20px;
+        margin: 5px auto;
+        border: 1px solid #E2E700;
+        border-radius: 10px;
+    }
+
+    .member--list::-webkit-scrollbar-thumb {
+
+        background: #E2E700; 
+        border-radius: 10px;
+        color: #E2E700;
     }
 
     .comic--container{

@@ -10,10 +10,11 @@ body{
     background-color: #1A1F1A;
     min-height: 1000px;
 }
-
+.header{
+    background: linear-gradient(-10deg, rgb(47, 0, 255) 15%, rgb(0, 0, 0) 100%);;
+}
 .header--container{
     height: 40px;
-    background: linear-gradient(-10deg, rgb(47, 0, 255) 15%, rgb(0, 0, 0) 100%);;
     position: relative;
 }
 
@@ -22,8 +23,13 @@ body{
     position: absolute;
 }
 
-.header--container__logo > img{
+.header--container__logo > a{
     height: 100%;
+}
+
+.header--container__logo > a > img{
+    height: 100%;
+    margin-left: 10px;
 }
 
 .header--container__name{
@@ -35,10 +41,16 @@ body{
     margin: 0px;
     text-align: center;
     line-height: 40px;
-    color: yellow;
     text-shadow: 0 0 0.12em rgb(244 248 0), 0 0 0.2em #000000, 0 0 1em #ffffff;
-
+    font-family: 'Playfair Display', serif;
 }
+
+.header--container__name > h2 > a{
+    text-decoration: none;
+    color: yellow;
+}
+
+
 
 
 
@@ -59,7 +71,7 @@ body{
     z-index: 1;
 }
 .banner--container{
-position: relative;
+    position: relative;
 }
 
 .banner--container__logo{
@@ -198,18 +210,6 @@ position: relative;
     margin-bottom: 10px;
 }
 
-.comic--list::-webkit-scrollbar{
-    height: 10px;
-    margin: 5px auto;
-    border: 1px solid #E41A57;
-    border-radius: 10px;
-}
-
-.comic--list::-webkit-scrollbar-thumb {
-    background: #E41A57; 
-    border-radius: 10px;
-}
-
 .comic--list__item,
 .member--list__item{
     margin-bottom: 10px;
@@ -218,14 +218,18 @@ position: relative;
 .comic--list__item > div{
     width: 90%;
     margin: auto;
+}
+
+
+.member--list__item > div > img{
+
+}
+
+.comic--list__item > div > img{
+    width: 100%;
+    width: -webkit-calc(100% - 4px);
     border: 2px solid #E41A57;
 }
-
-.comic--list__item > div > img,
-.member--list__item > div > img{
-    width: 100%;
-}
-
 
 
 
@@ -251,25 +255,16 @@ position: relative;
     border: 2px solid #E2E700;
 }
 
-.member--list::-webkit-scrollbar{
-    height: 10px;
-    margin: 5px auto;
-    border: 1px solid #E2E700;
-    border-radius: 10px;
-}
-
-.member--list::-webkit-scrollbar-thumb {
-    background: #E2E700; 
-    border-radius: 10px;
-}
-
-
 .member--list__item > div{
     width: 90%;
     margin: auto;
+}
+
+.member--list__item > div > img{
+    width: 100%;
+    width: -webkit-calc(100% - 4px);
     border: 2px solid #E2E700;
     border-radius: 100em;
-    overflow: hidden;
 }
 
 .member--list__item > h5{
@@ -317,9 +312,14 @@ position: relative;
     margin: 10px 20px;
 }
 
+
 .community--list__item > a{
     color: black;
     font-size: 80px;
+}
+
+.community--list__item >a:hover{
+    color: white;
 }
 
 .community--list__item > span{
