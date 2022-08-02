@@ -36,6 +36,7 @@
     .donate--list__info >p{
         font-size: 35px;
     }
+    
 }   
 
 @media (min-width:535px) and (max-width: 739px){
@@ -339,6 +340,11 @@
 
     .donate--list__info{
         height: 300px;
+    }
+
+    .comic--list__item > div:hover .comic--list__info{
+    z-index: 3;
+
     }
 }
 
