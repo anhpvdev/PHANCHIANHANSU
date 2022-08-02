@@ -403,6 +403,14 @@ body{
     border: 2px solid #CD1CA6;
 }
 
+.donate--container__donate{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.donate--bidv{
+    margin-bottom: 100px;
+}
 
 .donate--list__info{
     margin: 20px;

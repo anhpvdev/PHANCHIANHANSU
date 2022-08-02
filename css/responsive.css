@@ -202,7 +202,13 @@
     }
 
     .donate--list__info >p{
-        font-size: 50px;
+        font-size: 35px;
+    }
+    .donate--container__donate{
+        display: flex;
+    }
+    .donate--list__info{
+        height: 300px;
     }
 }
 
@@ -325,6 +331,14 @@
 
     .donate--list__info >p{
         font-size: 50px;
+    }
+
+    .donate--container__donate{
+        display: flex;
+    }
+
+    .donate--list__info{
+        height: 300px;
     }
 }
 
