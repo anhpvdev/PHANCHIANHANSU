@@ -211,6 +211,11 @@
         height: 60px;
     }
 
+    .banner{
+        position: relative;
+        top: 0px;
+    }
+    
     .header--container__name > h2{
         line-height: 60px;
         font-size: 40px;
