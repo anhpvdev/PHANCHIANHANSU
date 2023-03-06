@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PHÂN CHIA NHÂN SỰ</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="header">
+        <div class="header_menu">
+            <h3>Nhập thứ đầu tiên của tháng ( nhập số 2 -3 -4 ..., chủ nhật nhập 8)</h3>
+            <div>
+                <input type="text" id="valueinput">
+                <button id="start">ok</button>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div>
+            <div class="table_header col_0" >
+                <div class="table_day">NGÀY</div>
+                <div class="table_ca">
+                    <div class="ca">
+                        <h5 class="ca1">Ca 1 (6h-14h)</h5>
+                        <h5 class="ca2">Ca 2 (14h-22h)</h5>
+                        <h5 class="ca3">Ca 3 (22h-6h)</h5>
+                    </div>
+                    <div class="khuvuc">
+                        <h5>Khu vực 1</h5>
+                        <h5>Khu vực 2</h5>
+                        <h5>Khu vực 1</h5>
+                        <h5>Khu vực 2</h5>
+                        <h5>Khu vực 1</h5>
+                        <h5>Khu vực 2</h5>
+                        <h5>Khu vực 3</h5>  
+                    </div>
+                    
+                </div>
+            </div>
+
+
+            <div class="day col_1" id="col_1">
+                <div class="day_day">
+                    <div class="thu" id="10001"></div>
+                    <div class="ngay">1</div>
+                </div>
+                <div class="day_ca1">
+                    <h5 id="1"></h5>
+                    <h5 id="2"></h5>
+                </div>
+                <div class="day_ca2">
+                    <h5 id="3"></h5>
+                    <h5 id="4"></h5>
+                </div>
+                <div class="day_ca3">
+                    <h5 id="5"></h5>
+                    <h5 id="6"></h5>
+                    <h5 id="7"></h5>
+                </div>
+            </div>
+            <div class="day col_2" id="col_2">
+                <div class="day_day">
+                    <div class="thu" id="10002"></div>
+                    <div class="ngay">2</div>
+                </div>
+                <div class="day_ca1">
+                    <h5 id="8"></h5>
+                    <h5 id="9"></h5>
+                </div>
+                <div class="day_ca2">
+                    <h5 id="10"></h5>
+                    <h5 id="11"></h5>
+                </div>
+                <div class="day_ca3">
+                    <h5 id="12"></h5>
+                    <h5 id="13"></h5>
+                    <h5 id="14"></h5>
+                </div>
+            </div>
+            </div>
+            <div class="day col_3" id="col_3">
+                <div class="day_day">
+                    <div class="thu" id="10003"></div>
+                    <div class="ngay">3</div>
+                </div>
+                <div class="day_ca1">
+                    <h5 id="15"></h5>
+                    <h5 id="16"></h5>
+                </div>
+                <div class="day_ca2">
+                    <h5 id="17"></h5>
+                    <h5 id="18"></h5>
+                </div>
+                <div class="day_ca3">
+                    <h5 id="19"></h5>
+                    <h5 id="20"></h5>
+                    <h5 id="21"></h5>
+                </div>
+            </div>
+            </div>
+            <div class="day col_4" id="col_4">
+                <div class="day_day">
+                    <div class="thu" id="10004"></div>
+                    <div class="ngay">4</div>
+                </div>
+                <div class="day_ca1">
+                    <h5 id="22"></h5>
+                    <h5 id="23"></h5>
+                </div>
+                <div class="day_ca2">
+                    <h5 id="24"></h5>
+                    <h5 id="25"></h5>
+                </div>
+                <div class="day_ca3">
+                    <h5 id="26"></h5>
+                    <h5 id="27"></h5>
+                    <h5 id="28"></h5>
+                </div>
+            </div>
+            </div>
+            <div class="day col_5" id="col_5">
+                <div class="day_day">
+                    <div class="thu" id="10005"></div>
+                    <div class="ngay">5</div>
+                </div>
+                <div class="day_ca1">
+                    <h5 id="29"></h5>
+                    <h5 id="30"></h5>
+                </div>
+                <div class="day_ca2">
+                    <h5 id="31"></h5>
+                    <h5 id="32"></h5>
+                </div>
+                <div class="day_ca3">
+                    <h5 id="33"></h5>
+                    <h5 id="34"></h5>
+                    <h5 id="35"></h5>
+                </div>
+            </div>
+            </div>
+            <div class="day col_6" id="col_6">
+                <div class="day_day">
+                    <div class="thu" id="10006"></div>
+                    <div class="ngay">6</div>
+                </div>
+                <div class="day_ca1">
+                    <h5 id="36"></h5>
+                    <h5 id="37"></h5>
+                </div>
+                <div class="day_ca2">
+                    <h5 id="38"></h5>
+                    <h5 id="39"></h5>
+                </div>
+                <div class="day_ca3">
+                    <h5 id="40"></h5>
+                    <h5 id="41"></h5>
+                    <h5 id="42"></h5>
+                </div>
+            </div>
+            </div>
+            <div class="day col_7" id="col_7">
+                <div class="day_day">
+                    <div class="thu" id="10007"></div>
+                    <div class="ngay">7</div>
+                </div>
+                <div class="day_ca1">
+                    <h5 id="43"></h5>
+                    <h5 id="44"></h5>
+                </div>
+                <div class="day_ca2">
+                    <h5 id="45"></h5>
+                    <h5 id="46"></h5>
+                </div>
+                <div class="day_ca3">
+                    <h5 id="47"></h5>
+                    <h5 id="48"></h5>
+                    <h5 id="49"></h5>
+                </div>
+            </div>
+            </div>
+            <div class="day col_8" id="col_8">
+                <div class="day_day">
+                    <div class="thu" id="10008"></div>
+                    <div class="ngay">8</div>
+                </div>
+                <div class="day_ca1">
+                    <h5 id="50"></h5>
+                    <h5 id="51"></h5>
+                </div>
+                <div class="day_ca2">
+                    <h5 id="52"></h5>
+                    <h5 id="53"></h5>
+                </div>
+                <div class="day_ca3">
+                    <h5 id="54"></h5>
+                    <h5 id="55"></h5>
+                    <h5 id="56"></h5>
+                </div>
+            </div>
+            </div>
+            <div class="day col_9" id="col_9">
+                <div class="day_day">
+                    <div class="thu" id="10009"></div>
+                    <div class="ngay">9</div>
+                </div>
+                <div class="day_ca1">
+                    <h5 id="57"></h5>
+                    <h5 id="58"></h5>
+                </div>
+                <div class="day_ca2">
+                    <h5 id="59"></h5>
+                    <h5 id="60"></h5>
+                </div>
+                <div class="day_ca3">
+                    <h5 id="61"></h5>
+                    <h5 id="62"></h5>
+                    <h5 id="63"></h5>
+                </div>
+            </div>
+            </div>
+            <div class="day col_10" id="col_10">
+                <div class="day_day">
+                    <div class="thu" id="10010"></div>
+                    <div class="ngay">10</div>
+                </div>
+                <div class="day_ca1">
+                    <h5 id="64"></h5>
+                    <h5 id="65"></h5>
+                </div>
+                <div class="day_ca2">
+                    <h5 id="66"></h5>
+                    <h5 id="67"></h5>
+                </div>
+                <div class="day_ca3">
+                    <h5 id="68"></h5>
+                    <h5 id="69"></h5>
+                    <h5 id="70"></h5>
+                </div>
+            </div>
+            </div>
+            <div class="day col_11" id="col_11">
+                <div class="day_day">
+                    <div class="thu" id="10011"></div>
+                    <div class="ngay">11</div>
+                </div>
+                <div class="day_ca1">
+                    <h5 id="71"></h5>
+                    <h5 id="72"></h5>
+                </div>
+                <div class="day_ca2">
+                    <h5 id="73"></h5>
+                    <h5 id="74"></h5>
+                </div>
+                <div class="day_ca3">
+                    <h5 id="75"></h5>
+                    <h5 id="76"></h5>
+                    <h5 id="77"></h5>
+                </div>
+            </div>
+            </div>
+            <div class="day col_12" id="col_12">
+                <div class="day_day">
+                    <div class="thu" id="10012"></div>
+                    <div class="ngay">12</div>
+                </div>
+                <div class="day_ca1">
+                    <h5 id="78"></h5>
+                    <h5 id="79"></h5>
+                </div>
+                <div class="day_ca2">
+                    <h5 id="80"></h5>
+                    <h5 id="81"></h5>
+                </div>
+                <div class="day_ca3">
+                    <h5 id="82"></h5>
+                    <h5 id="83"></h5>
+                    <h5 id="84"></h5>
+                </div>
+            </div>
+            </div>
+            <div class="day col_13" id="col_13">
+                <div class="day_day">
+                    <div class="thu" id="10013"></div>
+                    <div class="ngay">13</div>
+                </div>
+                <div class="day_ca1">
+                    <h5 id="85"></h5>
+                    <h5 id="86"></h5>
+                </div>
+                <div class="day_ca2">
+                    <h5 id="87"></h5>
+                    <h5 id="88"></h5>
+                </div>
+                <div class="day_ca3">
+                    <h5 id="89"></h5>
+                    <h5 id="90"></h5>
+                    <h5 id="91"></h5>
+                </div>
+            </div>
+            </div>
+            <div class="day col_14" id="col_14">
+                <div class="day_day">
+                    <div class="thu" id="10014"></div>
+                    <div class="ngay">14</div>
+                </div>
+                <div class="day_ca1">
+                    <h5 id="92"></h5>
+                    <h5 id="93"></h5>
+                </div>
+                <div class="day_ca2">
+                    <h5 id="94"></h5>
+                    <h5 id="95"></h5>
+                </div>
+                <div class="day_ca3">
+                    <h5 id="96"></h5>
+                    <h5 id="97"></h5>
+                    <h5 id="98"></h5>
+                </div>
+            </div>
+            </div>
+            <div class="day col_15" id="col_15">
+                <div class="day_day">
+                    <div class="thu" id="10015"></div>
+                    <div class="ngay">15</div>
+                </div>
+                <div class="day_ca1">
+                    <h5 id="99"></h5>
+                    <h5 id="100"></h5>
+                </div>
+                <div class="day_ca2">
+                    <h5 id="101"></h5>
+                    <h5 id="102"></h5>
+                </div>
+                <div class="day_ca3">
+                    <h5 id="103"></h5>
+                    <h5 id="104"></h5>
+                    <h5 id="105"></h5>
+                </div>
+            </div>
+            </div>
+            <div class="day col_16" id="col_16">
+                <div class="day_day">
+                    <div class="thu" id="10016"></div>
+                    <div class="ngay">16</div>
+                </div>
+                <div class="day_ca1">
+                    <h5 id="106"></h5>
+                    <h5 id="107"></h5>
+                </div>
+                <div class="day_ca2">
+                    <h5 id="108"></h5>
+                    <h5 id="109"></h5>
+                </div>
+                <div class="day_ca3">
+                    <h5 id="110"></h5>
+                    <h5 id="111"></h5>
+                    <h5 id="112"></h5>
+                </div>
+            </div>
+            </div>
+            <div class="day col_17" id="col_17">
+                <div class="day_day">
+                    <div class="thu" id="10017"></div>
+                    <div class="ngay">17</div>
+                </div>
+                <div class="day_ca1">
+                    <h5 id="113"></h5>
+                    <h5 id="114"></h5>
+                </div>
+                <div class="day_ca2">
+                    <h5 id="115"></h5>
+                    <h5 id="116"></h5>
+                </div>
+                <div class="day_ca3">
+                    <h5 id="117"></h5>
+                    <h5 id="118"></h5>
+                    <h5 id="119"></h5>
+                </div>
+            </div>
+            </div>
+            <div class="day col_18" id="col_18">
+                <div class="day_day">
+                    <div class="thu" id="10018"></div>
+                    <div class="ngay">18</div>
+                </div>
+                <div class="day_ca1">
+                    <h5 id="120"></h5>
+                    <h5 id="121"></h5>
+                </div>
+                <div class="day_ca2">
+                    <h5 id="122"></h5>
+                    <h5 id="123"></h5>
+                </div>
+                <div class="day_ca3">
+                    <h5 id="124"></h5>
+                    <h5 id="125"></h5>
+                    <h5 id="126"></h5>
+                </div>
+            </div>
+            </div>
+            <div class="day col_19" id="col_19">
+                <div class="day_day">
+                    <div class="thu" id="10019"></div>
+                    <div class="ngay">19</div>
+                </div>
+                <div class="day_ca1">
+                    <h5 id="127"></h5>
+                    <h5 id="128"></h5>
+                </div>
+                <div class="day_ca2">
+                    <h5 id="129"></h5>
+                    <h5 id="130"></h5>
+                </div>
+                <div class="day_ca3">
+                    <h5 id="131"></h5>
+                    <h5 id="132"></h5>
+                    <h5 id="133"></h5>
+                </div>
+            </div>
+            </div>
+            <div class="day col_20" id="col_20">
+                <div class="day_day">
+                    <div class="thu" id="10020"></div>
+                    <div class="ngay">20</div>
+                </div>
+                <div class="day_ca1">
+                    <h5 id="134"></h5>
+                    <h5 id="135"></h5>
+                </div>
+                <div class="day_ca2">
+                    <h5 id="136"></h5>
+                    <h5 id="137"></h5>
+                </div>
+                <div class="day_ca3">
+                    <h5 id="138"></h5>
+                    <h5 id="139"></h5>
+                    <h5 id="140"></h5>
+                </div>
+            </div>
+            </div>
+            <div class="day col_21" id="col_21">
+                <div class="day_day">
+                    <div class="thu" id="10021"></div>
+                    <div class="ngay">21</div>
+                </div>
+                <div class="day_ca1">
+                    <h5 id="141"></h5>
+                    <h5 id="142"></h5>
+                </div>
+                <div class="day_ca2">
+                    <h5 id="143"></h5>
+                    <h5 id="144"></h5>
+                </div>
+                <div class="day_ca3">
+                    <h5 id="145"></h5>
+                    <h5 id="146"></h5>
+                    <h5 id="147"></h5>
+                </div>
+            </div>
+            </div>
+            <div class="day col_22" id="col_22">
+                <div class="day_day">
+                    <div class="thu" id="10022"></div>
+                    <div class="ngay">22</div>
+                </div>
+                <div class="day_ca1">
+                    <h5 id="148"></h5>
+                    <h5 id="149"></h5>
+                </div>
+                <div class="day_ca2">
+                    <h5 id="150"></h5>
+                    <h5 id="151"></h5>
+                </div>
+                <div class="day_ca3">
+                    <h5 id="152"></h5>
+                    <h5 id="153"></h5>
+                    <h5 id="154"></h5>
+                </div>
+            </div>
+            </div>
+            <div class="day col_23" id="col_23">
+                <div class="day_day">
+                    <div class="thu" id="10023"></div>
+                    <div class="ngay">23</div>
+                </div>
+                <div class="day_ca1">
+                    <h5 id="155"></h5>
+                    <h5 id="156"></h5>
+                </div>
+                <div class="day_ca2">
+                    <h5 id="157"></h5>
+                    <h5 id="158"></h5>
+                </div>
+                <div class="day_ca3">
+                    <h5 id="159"></h5>
+                    <h5 id="160"></h5>
+                    <h5 id="161"></h5>
+                </div>
+            </div>
+            </div>
+            <div class="day col_24" id="col_24">
+                <div class="day_day">
+                    <div class="thu" id="10024"></div>
+                    <div class="ngay">23</div>
+                </div>
+                <div class="day_ca1">
+                    <h5 id="162"></h5>
+                    <h5 id="163"></h5>
+                </div>
+                <div class="day_ca2">
+                    <h5 id="164"></h5>
+                    <h5 id="165"></h5>
+                </div>
+                <div class="day_ca3">
+                    <h5 id="166"></h5>
+                    <h5 id="167"></h5>
+                    <h5 id="168"></h5>
+                </div>
+            </div>
+            </div>
+            <div class="day col_25" id="col_25">
+                <div class="day_day">
+                    <div class="thu" id="10025"></div>
+                    <div class="ngay">25</div>
+                </div>
+                <div class="day_ca1">
+                    <h5 id="169"></h5>
+                    <h5 id="170"></h5>
+                </div>
+                <div class="day_ca2">
+                    <h5 id="171"></h5>
+                    <h5 id="172"></h5>
+                </div>
+                <div class="day_ca3">
+                    <h5 id="173"></h5>
+                    <h5 id="174"></h5>
+                    <h5 id="175"></h5>
+                </div>
+            </div>
+            </div>
+            <div class="day col_26" id="col_26">
+                <div class="day_day">
+                    <div class="thu" id="10026"></div>
+                    <div class="ngay">26</div>
+                </div>
+                <div class="day_ca1">
+                    <h5 id="176"></h5>
+                    <h5 id="177"></h5>
+                </div>
+                <div class="day_ca2">
+                    <h5 id="178"></h5>
+                    <h5 id="179"></h5>
+                </div>
+                <div class="day_ca3">
+                    <h5 id="180"></h5>
+                    <h5 id="181"></h5>
+                    <h5 id="182"></h5>
+                </div>
+            </div>
+            </div>
+            <div class="day col_27" id="col_27">
+                <div class="day_day">
+                    <div class="thu" id="10027"></div>
+                    <div class="ngay">27</div>
+                </div>
+                <div class="day_ca1">
+                    <h5 id="183"></h5>
+                    <h5 id="184"></h5>
+                </div>
+                <div class="day_ca2">
+                    <h5 id="185"></h5>
+                    <h5 id="186"></h5>
+                </div>
+                <div class="day_ca3">
+                    <h5 id="187"></h5>
+                    <h5 id="188"></h5>
+                    <h5 id="189"></h5>
+                </div>
+            </div>
+            </div>
+            <div class="day col_28" id="col_28">
+                <div class="day_day">
+                    <div class="thu" id="10028"></div>
+                    <div class="ngay">28</div>
+                </div>
+                <div class="day_ca1">
+                    <h5 id="190"></h5>
+                    <h5 id="191"></h5>
+                </div>
+                <div class="day_ca2">
+                    <h5 id="192"></h5>
+                    <h5 id="193"></h5>
+                </div>
+                <div class="day_ca3">
+                    <h5 id="194"></h5>
+                    <h5 id="195"></h5>
+                    <h5 id="196"></h5>
+                </div>
+            </div>
+            </div>
+            <div class="day col_29" id="col_29">
+                <div class="day_day">
+                    <div class="thu" id="10029"></div>
+                    <div class="ngay">29</div>
+                </div>
+                <div class="day_ca1">
+                    <h5 id="197"></h5>
+                    <h5 id="198"></h5>
+                </div>
+                <div class="day_ca2">
+                    <h5 id="199"></h5>
+                    <h5 id="200"></h5>
+                </div>
+                <div class="day_ca3">
+                    <h5 id="201"></h5>
+                    <h5 id="202"></h5>
+                    <h5 id="203"></h5>
+                </div>
+            </div>
+            </div>
+            <div class="day col_30" id="col_30">
+                <div class="day_day">
+                    <div class="thu" id="10030"></div>
+                    <div class="ngay">30</div>
+                </div>
+                <div class="day_ca1">
+                    <h5 id="204"></h5>
+                    <h5 id="205"></h5>
+                </div>
+                <div class="day_ca2">
+                    <h5 id="206"></h5>
+                    <h5 id="207"></h5>
+                </div>
+                <div class="day_ca3">
+                    <h5 id="208"></h5>
+                    <h5 id="209"></h5>
+                    <h5 id="210"></h5>
+                </div>
+            </div>
+            </div>
+            <div class="day col_31" id="col_31">
+                <div class="day_day">
+                    <div class="thu" id="10031"></div>
+                    <div class="ngay">31</div>
+                </div>
+                <div class="day_ca1">
+                    <h5 id="211"></h5>
+                    <h5 id="212"></h5>
+                </div>
+                <div class="day_ca2">
+                    <h5 id="213"></h5>
+                    <h5 id="214"></h5>
+                </div>
+                <div class="day_ca3">
+                    <h5 id="215"></h5>
+                    <h5 id="216"></h5>
+                    <h5 id="217"></h5>
+                </div>
+            </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
