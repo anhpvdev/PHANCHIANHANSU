@@ -8,10 +8,16 @@ body{
 
 .container{
     margin: auto;
+    display: flex;
 }
 .header{
     height: 50px;
     margin-bottom: 100px;
+    display: flex;
+}
+
+.header_menu{
+    margin: 0px 50px;
 }
 
 .header_menu > div{
@@ -35,12 +41,6 @@ body{
     color: yellow;
     cursor: pointer;
 }
-
-
-.container > div{
-    width: 100%;
-}
-
 
 
 .table_header{
@@ -126,3 +126,25 @@ body{
 }
 
 
+.chiacong{
+    margin-left: 20px;
+}
+
+.cong{
+    width: 200px;
+    height: 300px;
+    border: 1px solid black;
+    margin-left: 20px;
+}
+.cong > *{
+    display: flex;
+}
+
+.cong > *>*{
+    height: 30px;
+    line-height: 30px;
+    width: 50%;
+    text-align: center;
+    border: 1px solid black;
+    background-color: white;
+}
